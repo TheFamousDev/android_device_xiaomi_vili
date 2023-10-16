@@ -6,10 +6,5 @@
   {
     "repository": "hardware_xiaomi"
     "target_path": "hardware/xiaomi"
-  },
-  {
-    "repository": "vendor_xiaomi_vili-miuicamera",
-    "target_path": "vendor/xiaomi/vili-miuicamera",
-    "remote": "gitlab",
   }
 ]
