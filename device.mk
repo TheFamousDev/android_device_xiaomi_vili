@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_lahaina)
 
 # MiuiCamera
-#$(call inherit-product-if-exists, vendor/xiaomi/vili-miuicamera/products/miuicamera.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/vili-miuicamera/products/miuicamera.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
